@@ -22,6 +22,8 @@ Route::post('password/reset', [AuthController::class, 'passwordReset'])->name('p
 
 
 
+
+
 Route::resource('posts', PostController::class);
 
 
